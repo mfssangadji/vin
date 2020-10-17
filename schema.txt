@@ -1,0 +1,39 @@
+TABEL
+- user
+  id
+  username
+  password
+  nama_lengkap
+  status
+
+- sekolah
+  id
+  tingkatan_pendidikan
+  nama_sekolah
+  alamat
+  no_telp
+
+- siswa
+  id
+  sekolah_id
+  nis
+  nama_lengkap
+  jenis_kelamin
+  alamat
+  no_telp
+
+- beasiswa
+  id
+  siswa_id
+  jenis_beasiswa
+  jumlah_nominal
+  tanggal_pengajuan
+  tanggal_pengambilan
+  status_penerimaan
+
+- ijazah
+  id
+  siswa_id
+  no_ijazah
+  tanggal_pengambilan
+  status_penerimaan
